@@ -1,0 +1,5 @@
+FROM postgres:13
+
+ENV POSTGRES_USER=devops
+ENV POSTGRES_PASSWORD=devops123
+ENV POSTGRES_DB=localdb
