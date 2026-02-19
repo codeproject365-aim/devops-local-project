@@ -23,3 +23,55 @@ This project shows how to:
 
  📂 Project Structure
 
+ project-root/
+│
+├── app/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── docker/
+│   └── Dockerfile
+│
+├── docker-compose.yml
+├── Jenkinsfile
+└── README.md
+
+ 🛠️ Setup Instructions (Local)
+
+1. Clone the repository
+
+   git clone https://github.com/your-username/your-repo-name.git
+
+2. Navigate into project directory
+
+   cd your-repo-name
+
+3. Build and start containers
+
+   docker compose up --build
+
+4. Access application
+
+   http://localhost:5000
+
+ ☁️ Deployment Steps 
+
+- Launch EC2 instance (Ubuntu)
+- Install Docker and Docker Compose
+- Clone repository
+- Run docker compose up -d
+- Configure Nginx reverse proxy
+- Access using EC2 public IP
+
+  📖 Learning Outcome
+
+- Understanding of containerization
+- CI/CD automation workflow
+- Cloud deployment process
+- Reverse proxy configuration
+- Basic DevOps best practices
+
+  👨‍💻 Author
+
+Sanskar Rajput  
+
