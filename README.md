@@ -71,7 +71,6 @@ This project shows how to:
 - Reverse proxy configuration
 - Basic DevOps best practices
 
-  👨‍💻 Author
-
+👨‍💻 Author
 Sanskar Rajput  
 
